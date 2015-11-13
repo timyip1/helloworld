@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
 
   devise_for :users
-  get 'welcome/index'
+
  resources :articles
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
+
   #this is the home page when people get dirceted from the url localhost:3000
 #devise below
   devise_for :admins
