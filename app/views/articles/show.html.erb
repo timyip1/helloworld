@@ -1,14 +1,17 @@
-<h1> Show.html.erb. Just show one.</h1>
+<h1> Great Job!</h1> 
+
+
 <p>
-  <strong>Title:</strong>
+  <strong>How long you practiced:</strong>
   <%= @article.title %>
 </p>
  
 <p>
-  <strong>Text:</strong>
+  <strong>How you felt:</strong>
   <%= @article.text %>
 </p>
 
+Keep it up!<p>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+<%= link_to 'View Logs', articles_path %>
