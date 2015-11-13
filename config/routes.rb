@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
+  #this is the home page when people get dirceted from the url localhost:3000
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
